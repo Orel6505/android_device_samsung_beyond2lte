@@ -42,4 +42,27 @@
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 H -326 V 142 H 0 V 0 Z @right</string>
+    <!-- crDroid-specific customizations below -->
+<!--
+     Copyright (C) 2016-2021 crDroid Android Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+    <!-- Whether to show a custom view for FOD -->
+    <bool name="config_needCustomFODView">true</bool>
+
+    <!-- Default fod pressed color -->
+    <integer name="config_fod_pressed_color">1</integer>
+
+    <!-- Default value for FOD animation package resources -->
+    <string name="config_fodAnimationPackage" translatable="false">com.crdroid.fod.animations</string>
+
 </resources>

@@ -36,7 +36,7 @@
 #define FOD_SENSOR_Y        2500
 
 /* Sensor rectangle size  */
-#define FOD_SENSOR_SIZE     350
+#define FOD_SENSOR_SIZE     300
 
 #define FOD_ENABLE "fod_enable,1"
 #define FOD_DISABLE "fod_enable,0"

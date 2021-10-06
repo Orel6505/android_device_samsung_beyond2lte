@@ -23,5 +23,8 @@ $(call inherit-product, vendor/samsung/beyond2lte/beyond2lte-vendor.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# FOD
+EXTRA_FOD_ANIMATIONS := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
